@@ -1,13 +1,16 @@
+body{
+    background-color: beige;
+}
 
 h1{
     color: red;
+    font-family: Montserrat,sans-serif;
 }
 
 p{
     color: blue;
 }
 nav{
-    background-color: lightblue;
+    background-color: lightblue ;
     text-align: center;
-
 }
