@@ -4,7 +4,13 @@ body{
 
 h1{
     color: #334259;
+    text-align: center;
 
+}
+div.box{
+    display:grid;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr ;
+    grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
 }
 
 p{
