@@ -82,3 +82,24 @@ footer{
 li {
     list-style-type: none;
 }
+
+.Div1 , .Div2 {
+    border-bottom: #334259 solid 2px;
+}
+.Div1 , .Div2, .Div3{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr;
+}
+li {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+p{
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+#courseParagraph {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
