@@ -80,14 +80,14 @@ footer{
 #page-heading{
     text-align: left;
 }
-li {
+a {
     list-style-type: none;
 }
 
-.Div1 , .Div2 {
+.courseBorder{
     border-bottom: #334259 solid 2px;
 }
-.Div1 , .Div2, .Div3{
+.courseDiv{
     display:flex;
     flex-direction: column;
   
@@ -95,12 +95,12 @@ li {
 
 
 @media (min-width:600px) {
-.Div1 , .Div2, .Div3{
+    .courseDiv{
         display: grid;
         grid-template-columns:  1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 0.5fr;
     }
-    li {
+    a {
         grid-column: 1/2;
         grid-row: 1/2;
     }
@@ -108,7 +108,7 @@ li {
         grid-column: 2/4;
         grid-row: 1/2;
     }
-    #courseParagraph {
+    .courseParagraph {
         grid-column: 1/2;
         grid-row: 2/3;
     }
