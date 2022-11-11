@@ -10,3 +10,21 @@ do{
 } 
 while (!(input.length == 4) || isNaN(input));
 
+let a = 0;
+for (let i in courseList)
+{
+    if ((courseList[i].code).includes(input)){
+        console.log(`Yes I am taking the course: ${courseList[i].code} - ${courseList[i].name}`)
+        a=1;
+        break;
+    }
+
+
+}
+
+if (a===0) {
+    newCourse = {code: "ACIT "+input, name:null}
+    courseList.push(newCourse)
+    console.log("Success")
+    console.log(courseList)
+}
